@@ -1,0 +1,744 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+*{
+    font-family: 'BIZ UDPMincho', sans-serif;
+    text-decoration: 0;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    margin:0;
+    padding:0;
+    top:0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+}
+.header .logo{
+    display: inline;
+    padding-top: 20px;
+    height: 70px;
+}
+.header .navbar{
+    display: flex;
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    margin:0;
+    font-size: 22px;
+    color: rgb(117, 16, 104);
+    
+}
+.header .navbar a:hover{
+    color:red;
+    background-color: whitesmoke;
+}
+.navbar a{
+    
+    padding-right: 30px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+
+}
+
+.footer{
+    
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+    justify-content: space-between;
+    background: black;
+    
+}
+.footer .logo{
+    display: inline;
+    padding-top: 20px;
+    height: 70px;
+}
+.footer-row{
+   
+    
+    width: 100%;}
+
+.footer-col{
+    float: left;
+    width: 50%;
+    }
+
+.col1{text-align:left;}
+
+.col2{
+    margin-top: 50px;
+    text-align: right;}
+.fa-facebook{
+   
+    color: white;
+    
+}
+.fa-facebook:hover{color:#4267B2;
+cursor: pointer;}
+.fa-instagram{margin-right: 10px;
+color:white;}
+.fa-instagram:hover{
+    cursor: pointer;
+        background: #f09433; 
+      background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+      background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        border-radius:13px;
+        
+    }
+
+#menu-btn{
+    
+    display: none;
+    cursor: pointer;
+    color: whitesmoke;
+    
+}
+#menu-btn.fa-times{
+    color: whitesmoke;
+}
+#menu-btn1.fa-times{
+    color: whitesmoke;
+}
+.body{
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.home .home-find{
+    display: fixed;
+    margin:0;
+    padding:0;
+    top:0;
+    left:0;
+    right: 0;
+    text-align: center;
+    padding-top: 120px;
+    overflow-x: hidden;
+    color: whitesmoke;
+    justify-content: center;
+    font-size: 36px;
+    background-color: black;
+    width: 100%; 
+}
+.home img{
+    margin:0;
+    width: 100%;
+}
+.offer{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+    padding-bottom: 40px;
+    box-shadow:  rgba(0, 0, 0, 0.12) 0px -12px 30px,  rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+}
+.cars{
+    display: flex;
+    justify-content: center;
+    }
+.car-row{
+    display: flex;
+    justify-content: center;
+   
+    width: 100%;
+    
+}
+.car-column{
+    width: 20%;
+    margin-right: 20px;
+    float: left;
+    box-shadow: rgba(165, 12, 12, 0.726) 0px 0px 0px 3px;
+    text-align: center;}
+.car-column h3 {
+    margin-top: 10px;
+}
+.car-column h4 {
+    margin-top: 10px;
+    color: red;
+}
+.car-button{
+    border: 3px solid;
+    border-color: black;
+    color: whitesmoke;
+    background-color: black;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.car-column img{
+        height: 200px;
+        width: 200px;
+        margin-left:13px;
+        border: 2px solid black;
+        margin-top: 13px;
+        margin-right: 13px;
+    }
+  
+      .car-button:hover {
+        background-color: whitesmoke;
+    color: red;
+      }
+      .newsletter
+      {   
+          margin-top: 100px;
+          background-color: #070707;
+          width:100%;
+        
+      }
+      .newsletter-img img{
+          width: 50%;
+          height: 100%;
+      }
+      .newsletter h1{
+          color: whitesmoke;
+          text-align: center;
+          padding-top: 15px;
+      }
+      .newsletter-input{
+          text-align: center;
+          padding-top: 15px;
+      }
+      .newsletter-input input{
+          width:40%;
+          height: 30px;
+          
+      }
+      .newsletter-send{
+          margin-top: 15px;
+          text-align: center;
+          
+      }
+      .newsletter-send input{
+        width: 100px;
+        height: 45px;
+        border: 3px solid;
+    border-color: black;
+    color: whitesmoke;
+    background-color: gray;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+      }
+
+      .newsletter-send input:hover{
+        background-color: whitesmoke;
+        color: red;
+      }
+
+.misc{
+    display: table;
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    
+}
+.misc h2{padding-top: 20px;}
+.misc h3{padding-top: 20px;}
+.misc-row{
+    margin: 0 auto;
+}
+
+
+.misc-col{
+    float: left;
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+}
+.fa-phone, .fa-user, .fa-car{color:black;}
+
+.fa-phone:hover, .fa-user:hover, .fa-car:hover{
+    cursor: pointer;
+    color: red;
+}
+.car{
+    padding-top: 20px;
+}
+.main-picture {
+    padding-top: 0px;
+    margin: 30px;
+    text-align: center;
+}
+.main-picture img{
+    
+    border: 1px solid black;
+    cursor: pointer;
+    height: 70%;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.car-pictures{
+    width: 100%;
+    display: table;
+    text-align: center;
+    
+}
+
+.car-pictures img{
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.car h1{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.car-characteristics{
+    display: table;
+    width: 100%;
+    font-size: 20pt;
+    padding-bottom: 40px;
+    padding-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.car-c1{
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+.car-c2{
+    padding-top: 10px;
+    text-align: center;
+    float:right;
+    width: 50%;
+    }
+
+.aboutus{
+    padding-top: 130px;
+    width: 80%;
+    justify-content: center;
+    padding-left: 20px;
+}
+.aboutus p{
+    padding-bottom: 35px;
+    text-align: justify;
+    font-size: 16pt;
+}
+
+.contacts{
+    width: 100%;
+    
+    padding-top: 130px;
+}
+
+.contact{
+    padding-top: 50px;
+    display: table;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contact-img{
+    float: left;
+    width: 30%;
+}
+.contact-img img{
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.contact-details{
+    padding-top: 40px;
+    float:right;
+    width: 70%;
+    
+}
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .table tr:hover {background-color: #ddd;}
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+  .input-container {
+    width: 20%;
+    margin-left: 50px;
+
+}
+.input-container input{
+    margin-bottom: 15px;
+    width: 100%;
+    
+    height: 30px;
+}
+
+@media(max-width:1170px) {
+       
+.contacts{
+    width: 100%;
+    padding-top: 130px;
+}
+
+.contact{
+    padding-top: 50px;
+    display: table;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 30px;
+}
+.contact-img{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+.contact-img img{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.contact-details{
+    float: none;
+    text-align: left;
+    padding-top: 40px;
+    width: 100%;
+    
+}
+.contact-details h1{
+    text-align: left;
+    font-size: 18pt;
+}
+    .cars{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        
+        }
+    .car-row{
+       display:table;
+        margin-bottom: 20px;
+       width: 100%;
+       
+        
+    }
+    .car-column{
+        width: 45%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        box-shadow: rgba(165, 12, 12, 0.726) 0px 0px 0px 3px;
+        text-align: center;}
+    
+        .car-column img{
+            height: 200px;
+            width: 200px;
+            margin-left:13px;
+            border: 2px solid black;
+            margin-top: 13px;
+            margin-right: 13px;
+        }
+
+        .car-button{
+            border: 3px solid;
+            border-color: black;
+            color: whitesmoke;
+            background-color: black;
+            padding: 10px 26px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .newsletter-input input{
+            width:80%;
+            height: 30px;
+            
+        }
+        .car{
+            width: 100%;
+        }
+        .main-picture {
+            display: table;
+            text-align: center;
+        }
+        .main-picture img{
+            
+            border: 1px solid black;
+            cursor: pointer;
+            height: 100%;
+            width: 100%;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .car-pictures img{
+            padding: 5px;
+            height: 70px;
+            width: 70px;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .aboutus{
+            padding-top: 160px;
+            width: 80%;
+            justify-content: center;
+        }
+     .aboutus p{
+            padding-bottom: 65px;
+            text-align: justify;
+            font-size: 16pt;
+        }
+
+        
+        
+         
+    
+}
+@media(max-width:850px)
+{   
+    #menu-btn{
+        display: flex;
+        
+    } 
+    #menu-btn.fa-times{
+        transition-duration: 0.7s;
+        transform: rotate(180deg);
+    }
+    .header .navbar.active {
+        clip-path: polygon(0 0,100% 0, 100% 100%, 0 100%);
+    }
+    
+    .header{
+        padding:2rem;
+    }
+    
+    .navbar{
+        position: absolute;
+        top: 99%; left:0; right: 0;
+        display: flex;
+        clip-path: polygon(0 0,100% 0, 100% 0, 0 0);
+        flex-direction: column;
+        
+    }
+    .home .home-find{
+        margin:0;
+        
+        display: flex;
+        padding-top: 155px;
+        overflow-x: hidden;
+        color: whitesmoke;
+        justify-content: center;
+        font-size: 24px;
+        background-color: black;
+        width: 100%; 
+    }
+    .home img{
+        margin:0;
+        width: 100%;
+    }
+    .cars{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+    .car-row{
+       display:table;
+        margin-bottom: 20px;
+       width: 100%;
+       
+        
+    }
+    .car-column{
+        width: 43%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        box-shadow: rgba(165, 12, 12, 0.726) 0px 0px 0px 3px;
+        text-align: center;}
+    
+        .car-column img{
+            height: 200px;
+            width: 200px;
+            margin-left:13px;
+            border: 2px solid black;
+            margin-top: 13px;
+            margin-right: 13px;
+        }
+
+        .car-button{
+            border: 3px solid;
+            border-color: black;
+            color: whitesmoke;
+            background-color: black;
+            padding: 10px 26px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .misc-col{
+            padding-bottom: 30px;
+            width: 50%;
+           
+        }
+   @media (max-width:590px){
+    
+.contacts{
+    width: 100%;
+    padding-top: 130px;
+}
+
+.contact{
+    padding-top: 50px;
+    display: table;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 30px;
+}
+.contact-img{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+.contact-img img{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.contact-details{
+    float: none;
+    text-align: left;
+    padding-top: 40px;
+    width: 100%;
+    
+}
+.contact-details h1{
+    text-align: left;
+    font-size: 14pt;
+}
+
+    .cars{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+    .car-row{
+       display:table;
+        margin-bottom: 20px;
+       width: 100%;
+       
+        
+    }
+    .car-column{
+        width: 90%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        box-shadow: rgba(165, 12, 12, 0.726) 0px 0px 0px 3px;
+        text-align: center;}
+    
+        .car-column img{
+            height: 200px;
+            width: 200px;
+            margin-left:13px;
+            border: 2px solid black;
+            margin-top: 13px;
+            margin-right: 13px;
+        }
+
+        .car-button{
+            border: 3px solid;
+            border-color: black;
+            color: whitesmoke;
+            background-color: black;
+            padding: 10px 26px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .misc-col{
+            padding-bottom: 30px;
+            width: 100%;
+           
+        }
+        .car-c1{
+            font-size: 13pt;
+        }
+        .car-c2{
+            font-size: 13pt;
+            }
+        .aboutus{
+                padding-top: 160px;
+                width: 80%;
+                justify-content: center;
+            }
+         .aboutus p{
+                padding-bottom: 65px;
+                text-align: justify;
+                font-size: 16pt;
+            }
+   }
+    
+}

@@ -1,0 +1,318 @@
+*{
+    font-family: 'BIZ UDPMincho', sans-serif;
+    text-decoration: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    
+}
+.vehicles-top {
+
+    margin:0;
+    display: flex;
+    padding-top: 155px;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+    color: black;
+    justify-content: center;
+    font-size: 44px;
+    background-color:white;
+    width: 100%; 
+}
+.vehicle-container{
+    
+    padding-left: 90px;
+    padding-right: 90px;
+    
+}
+.container .vehicle-container .vehicle{
+    display: block;
+    margin-bottom: 30px;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 30px;
+    
+}
+.container .vehicle-container .vehicle .col .desc-1{
+    display: inline-block;
+    text-align: left;
+}
+.container .vehicle-container .vehicle .col .desc-2{
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.container .vehicle-container .vehicle .col {
+    float: left;
+}
+.container .vehicle-container .vehicle .col .lg-left {
+
+width:40%;
+}
+.container .vehicle-container .vehicle .lg-mid, .right {
+    
+    width:30%;
+    padding-left: 50px;
+    }
+.container .vehicle-container .vehicle .lg-mid h3{
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.container .vehicle-container .vehicle .lg-right h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+.container .vehicle-container .vehicle .lg-right h2{
+    font-size: 26px;
+    padding-bottom: 30px;
+    color: rgb(189, 24, 24);
+}
+
+.container .vehicle-container .vehicle .lg-left img
+{   
+    width: 300px;
+    height: 270px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.container .vehicle-container .vehicle:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .showmore{
+    
+    border: 3px solid;
+    border-color: black;
+    color: whitesmoke;
+    background-color: black;
+    padding: 18px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  .showmore:hover{
+      background-color: whitesmoke;
+      color: red;
+  }
+ .carousel{
+     display: none;
+     position: fixed;
+     background-color: whitesmoke;
+     height: 80%;
+     width: 80%;
+     top: 15%;
+     left: 7%;
+     right: 7%;
+     bottom: 30%;
+     margin: 0 auto;
+     background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+ .carousel-main-image{
+     height: 500px;
+     width: 600px;
+     margin: 0 auto;
+     
+ }
+ .carousel-main-image img{
+     height: 100%;
+     width: 100%;
+     margin: 0 auto;border: 1px solid black;
+     transition: transform .5s ease;
+ }
+ .carousel-main-image:hover img{
+    transform: scale(1.5);
+ }
+ .carousel-images{
+     padding-top: 10px;
+     margin: 0 auto;
+     text-align: center;
+
+     height: 110px;
+ }
+ .carousel-images img{
+    height: 100%;
+    width: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+ }
+ .carousel-close{
+    float: right;
+    border: 3px solid;
+    border-color: black;
+    color: whitesmoke;
+    background-color: black;
+    padding: 18px 42px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ .carousel-close:hover{
+     background-color: #fff;
+     color: red;
+ }
+ .filters{
+width: 80%;
+padding-bottom: 30px;
+padding-left: 100px;
+}
+.filter-select{
+    font-size: 18px;
+    padding-left: 30px;
+}
+.filter-search{
+    
+    border: 3px solid;
+    border-color: black;
+    color: whitesmoke;
+    background-color: black;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.filter-search:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+ 
+ 
+  @media(max-width:1012px)
+  
+  {   .carousel{
+    display: none;
+    position: fixed;
+    background-color: whitesmoke;
+    height: 70%;
+    width: 80%;
+    top: 20%;
+    left: 7%;
+    right: 7%;
+    bottom: 30%;
+    margin: 0 auto;
+
+}
+    
+    .container .vehicle-container .vehicle{
+        margin-bottom: 30px;
+        padding: 3rem 2rem;
+        background: #fff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding-bottom: 30px;
+        width: 100%;
+        display: table;
+    }
+    
+    .container .vehicle-container .vehicle .col-m {
+        
+    float: left;
+    width: 100%;
+        
+    }
+    .container .vehicle-container .vehicle .m-left {
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        }
+    .container .vehicle-container .vehicle .m-mid {
+        
+        width:50%;
+        padding-top: 20px;
+        padding-right: 20px;
+        }
+        .container .vehicle-container .vehicle .m-right{
+            width: 50%;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .filter-select{
+            font-size: 16px;
+            padding-left: 30px;
+            width: 100%;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    
+}
+
+@media(max-width:900px){
+
+    .carousel-main-image{
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+        padding: 40px;
+       
+    }
+    .carousel-close{
+        float: right;
+        border: 3px solid;
+        border-color: black;
+        color: whitesmoke;
+        background-color: black;
+        padding: 14px 24px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 12px;
+     }
+     .carousel-images{
+         height: 60px;
+     }
+     .carousel-images img{
+        height: 100%;
+        width: 60px;
+        border: 1px solid black;
+        cursor: pointer;
+     }
+     .carousel{
+        display: none;
+        position: fixed;
+        background-color: whitesmoke;
+        height: 75%;
+        width: 85%;
+        top: 20%;
+        left: 7%;
+        right: 7%;
+        bottom: 30%;
+        margin: 0 auto;
+    
+    }
+    .filter-select{
+        font-size: 16px;
+        padding-left: 30px;
+        width: 100%;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+        
+}
+@media(max-width:700px){
+
+    .carousel-main-image{
+        height: 420px;
+        width: 570px;
+        margin: 0 auto;
+        padding: 40px;
+       
+    }
+    .vehicle-container{
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+}
